@@ -1,0 +1,23 @@
+{
+  "graph": {
+    "Depot": {"A": 4, "B": 2},
+    "A": {"Depot": 4, "B": 1, "C": 5},
+    "B": {"Depot": 2, "A": 1, "C": 8, "D": 10},
+    "C": {"A": 5, "B": 8, "D": 2, "E": 3},
+    "D": {"B": 10, "C": 2, "E": 4, "F": 6},
+    "E": {"C": 3, "D": 4, "F": 1},
+    "F": {"D": 6, "E": 1}
+  },
+  "parcels": [
+    {"id": "P1",  "dest": "A", "weight": 5, "priority": 10, "deadline": 4},
+    {"id": "P2",  "dest": "C", "weight": 8, "priority": 15, "deadline": 2},
+    {"id": "P3",  "dest": "F", "weight": 3, "priority": 6,  "deadline": 8},
+    {"id": "P4",  "dest": "B", "weight": 6, "priority": 12, "deadline": 3},
+    {"id": "P5",  "dest": "D", "weight": 4, "priority": 7,  "deadline": 6},
+    {"id": "P6",  "dest": "E", "weight": 7, "priority": 13, "deadline": 5},
+    {"id": "P7",  "dest": "A", "weight": 2, "priority": 4,  "deadline": 10},
+    {"id": "P8",  "dest": "F", "weight": 9, "priority": 14, "deadline": 7},
+    {"id": "P9",  "dest": "C", "weight": 3, "priority": 5,  "deadline": 3},
+    {"id": "P10", "dest": "D", "weight": 5, "priority": 9,  "deadline": 9}
+  ]
+}

@@ -1,0 +1,14 @@
+Correctness tests
+----------------------------------------
+ [PASS] merge sort == insertion sort == Python sorted (200 parcels)
+ [PASS] knapsack == brute force optimum (30 random cases, 10 parcels)
+ [PASS] Dijkstra distances/paths on a hand-checked graph
+ [PASS] NN-TSP valid closed tour; length/optimal: avg 1.076, worst 1.333 (30 cases, 7 stops)
+
+Dataset                  Sort ms   Knap ms  Route ms  Length
+small (10 parcels)         0.025     0.036     0.062      22
+100 parcels/100 nodes      0.284     1.701     3.495     298
+500 parcels/300 nodes      1.431    28.648    38.392     947
+1000 parcels/500 nodes     3.208   165.450   140.569    1778
+
+Charts saved to /home/claude/courier_planner/outputs/
